@@ -2,7 +2,8 @@ import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timel
 import 'react-vertical-timeline-component/style.min.css';
 
 
-import { skills,experiences } from '../constants'
+import { skills,experiences, socialLinks } from '../constants'
+import CTA from '../Components/CTA';
 
 const About = () => {
   return (
@@ -80,6 +81,33 @@ const About = () => {
           </VerticalTimeline>
         </div>
       </div>
+
+      <hr className='border-slate-200'/>
+
+      <div className='py-10'>
+        <h3 className='subhead-text mb-8'>Connect With Me</h3>
+        <div className='flex gap-8'>
+          {socialLinks.map((link) => (
+            <a
+              key={link.name}
+              href={link.link}
+              target='_blank'
+              rel='noopener noreferrer'
+              className='w-14 h-14 flex items-center justify-center bg-white rounded-full shadow-md hover:shadow-lg transition-shadow'
+            >
+              <img
+                src={link.iconUrl}
+                alt={link.name}
+                className='w-7 h-7 object-contain'
+              />
+            </a>
+          ))}
+        </div>
+      </div>
+
+      <hr className='border-slate-200'/>
+
+      <CTA />
   </section>
   )
 }

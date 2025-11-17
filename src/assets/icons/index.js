@@ -14,8 +14,6 @@ import tailwindcss from './tailwindcss.svg'
 import typescript from './typescript.svg'
 import linkedin from './linkedin.svg'
 import twitter from './twitter.svg'
-import snapgram from './snapgram.svg'
-import threads from './threads.svg'
 import arrow from './arrow.svg'
 import contact from './contact.svg'
 import soundon from './soundon.png'
@@ -39,8 +37,6 @@ export {
     typescript,
     linkedin,
     twitter,
-    snapgram,
-    threads,
     arrow,
     contact,
     soundon,

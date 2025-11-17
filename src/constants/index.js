@@ -1,6 +1,6 @@
-import { meta, shopify, starbucks, tesla } from "../assets/images";
+import { coreline, Learnyfy, Pravisht, RapidResq } from "../assets/images";
 import {
-    contact,
+    twitter,
     css,
     express,
     git,
@@ -99,38 +99,70 @@ export const skills = [
 
 export const experiences = [
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Web Developer Intern",
+        company_name: "Coreline Solutions",
+        icon: coreline,
         iconBg: "#accbe1",
-        date: "March 2020 - April 2021",
+        date: "April 2025 - May 2025",
         points: [
             "Developing and maintaining web applications using React.js and other related technologies.",
             "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
             "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+        ],
+    },
+    {
+        title: "Backend Development Intern",
+        company_name: "Pravisht Digital",
+        icon: Pravisht,
+        iconBg: "#d4c5f8",
+        date: "June 2025 - July 2025",
+        points: [
+            " Developed and implemented robust RESTful APIs using Spring Boot, contributing to the backend architecture.",
+            " Integrated backend services with both MySQL and MongoDB databases, ensuring efficient data persistence and retrieval for application functionalities.",
+            " Utilized industry-standard development tools including Maven, Git, and Postman for build management, version control, and API testing, streamlining the development workflow.",
         ],
     }
 ];
 
 export const socialLinks = [
     {
-        name: 'Contact',
-        iconUrl: contact,
-        link: '/contact',
+        name: 'twitter',
+        iconUrl: twitter,
+        link: 'https://x.com/rachitk20',
     },
     {
         name: 'GitHub',
         iconUrl: github,
-        link: 'https://github.com/YourGitHubUsername',
+        link: 'https://github.com/Rachitkumar2',
     },
     {
         name: 'LinkedIn',
         iconUrl: linkedin,
-        link: 'https://www.linkedin.com/in/YourLinkedInUsername',
+        link: 'https://www.linkedin.com/in/rachit-kumar-2195a3265/',
     }
 ];
 
 export const projects = [
-    // Add your projects here
+    {
+        iconUrl: Learnyfy ,
+        theme:   'btn-back-yellow'  ,
+        name:   'Learnyfy LMS' ,
+        description: 'Developed the frontend of a full-featured LMS platform using React.js, following a modular and component-based architecture. Implemented key modules including Student Dashboard, Course Listings, and Educator Interface to enhance usability.',
+        link:'https://learnyfy-lms.vercel.app/'
+    },
+    {
+        iconUrl: RapidResq,
+        theme:   'btn-back-red'  ,
+        name:   'RapidResq' ,
+        description: ' Built the backend for an animal rescue platform with NGO authentication, volunteer roles, and adoption request management .Created and implemented RESTful APIs for user authentication, emergency reporting, image uploads, and role-based access control.',
+        link:'https://rapidresq.vercel.app/'
+    },
+    {
+        iconUrl: github,
+        theme:   'btn-back-pink' ,
+        name:   'K72 clone' ,
+        description: 'Made clone of a Agency called K72',
+        link:'https://github.com/Rachitkumar2/React'
+    }
+    
 ];
