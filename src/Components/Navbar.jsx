@@ -16,8 +16,10 @@ const Navbar = () => {
             </NavLink>
             <a 
                 href="/Rachit_Resume.pdf" 
-                download="Rachit_Kumar_Resume.pdf"
-                className='text-black '
+                download
+                target="_blank"
+                rel="noopener noreferrer"
+                className='text-black'
             >
                 Resume
             </a>
