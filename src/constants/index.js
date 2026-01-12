@@ -163,6 +163,13 @@ export const projects = [
         name:   'K72 clone' ,
         description: 'Made clone of a Agency called K72',
         link:'https://github.com/Rachitkumar2/React'
+    },
+    {
+        iconUrl: github,
+        theme:   'btn-back-green',
+        name:   'Image Editor',
+        description: 'A web-based image editing application with various editing features and filters.',
+        link:'https://image-editor-pied-six.vercel.app/'
     }
     
 ];
